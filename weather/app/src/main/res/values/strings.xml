@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="current_condition">Current Condition:</string>
+    <string name="max_temp">Max Temp:</string>
+    <string name="min_temp">Min Temp:</string>
+    <string name="wind">Wind:</string>
+    <string name="at">at</string>
+    <string name="outlook">Outlook:</string>
+    <string name="cannot_find_location">Can Not Find Location Information</string>
+    <string name="weather_icon_description">Weather Icon</string>
+    <string name="fetch_weather_button">Fetch Weather</string>
+</resources>

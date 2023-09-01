@@ -1,0 +1,72 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "WeatherService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "version": "1.0"
+  },
+  "paths": {
+    "/Weather/{city}": {
+      "get": {
+        "tags": [
+          "Weather"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "city",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/WeatherInfo"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "WeatherInfo": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "city": {
+          "type": "string"
+        },
+        "currentCondition": {
+          "type": "string"
+        },
+        "maxTemp": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "minTemp": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "windDirection": {
+          "type": "string"
+        },
+        "windSpeed": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "outlook": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

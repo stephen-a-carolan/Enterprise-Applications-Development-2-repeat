@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Wetter</string>
+    <string name="current_condition">Aktuelle Bedingung:</string>
+    <string name="max_temp">Höchsttemperatur:</string>
+    <string name="min_temp">Tiefsttemperatur:</string>
+    <string name="wind">Wind:</string>
+    <string name="at">bei</string>
+    <string name="outlook">Ausblick:</string>
+    <string name="cannot_find_location">Standortinformationen können nicht gefunden werden</string>
+    <string name="weather_icon_description">Weather Icon</string>
+    <string name="fetch_weather_button">Wetter abrufen</string>
+</resources>
+
