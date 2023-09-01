@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\steph\\source\\repos\\WeatherService\\WeatherService.csproj": {}
+    "C:\\Users\\steph\\Documents\\X00145825 Enterprise Applications Development 2 repeat\\WeatherService\\WeatherService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\steph\\source\\repos\\WeatherService\\WeatherService.csproj": {
+    "C:\\Users\\steph\\Documents\\X00145825 Enterprise Applications Development 2 repeat\\WeatherService\\WeatherService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\steph\\source\\repos\\WeatherService\\WeatherService.csproj",
+        "projectUniqueName": "C:\\Users\\steph\\Documents\\X00145825 Enterprise Applications Development 2 repeat\\WeatherService\\WeatherService.csproj",
         "projectName": "WeatherService",
-        "projectPath": "C:\\Users\\steph\\source\\repos\\WeatherService\\WeatherService.csproj",
+        "projectPath": "C:\\Users\\steph\\Documents\\X00145825 Enterprise Applications Development 2 repeat\\WeatherService\\WeatherService.csproj",
         "packagesPath": "C:\\Users\\steph\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\steph\\source\\repos\\WeatherService\\obj\\",
+        "outputPath": "C:\\Users\\steph\\Documents\\X00145825 Enterprise Applications Development 2 repeat\\WeatherService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
