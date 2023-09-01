@@ -13,3 +13,18 @@ C:\Users\steph\source\repos\ApiPerformanceTestWeather\obj\Debug\net6.0\refint\Ap
 C:\Users\steph\source\repos\ApiPerformanceTestWeather\obj\Debug\net6.0\ApiPerformanceTestWeather.pdb
 C:\Users\steph\source\repos\ApiPerformanceTestWeather\obj\Debug\net6.0\ApiPerformanceTestWeather.genruntimeconfig.cache
 C:\Users\steph\source\repos\ApiPerformanceTestWeather\obj\Debug\net6.0\ref\ApiPerformanceTestWeather.dll
+C:\Users\steph\Documents\X00145825 Enterprise Applications Development 2 repeat\ApiPerformanceTestWeather\bin\Debug\net6.0\ApiPerformanceTestWeather.exe
+C:\Users\steph\Documents\X00145825 Enterprise Applications Development 2 repeat\ApiPerformanceTestWeather\bin\Debug\net6.0\ApiPerformanceTestWeather.deps.json
+C:\Users\steph\Documents\X00145825 Enterprise Applications Development 2 repeat\ApiPerformanceTestWeather\bin\Debug\net6.0\ApiPerformanceTestWeather.runtimeconfig.json
+C:\Users\steph\Documents\X00145825 Enterprise Applications Development 2 repeat\ApiPerformanceTestWeather\bin\Debug\net6.0\ApiPerformanceTestWeather.dll
+C:\Users\steph\Documents\X00145825 Enterprise Applications Development 2 repeat\ApiPerformanceTestWeather\bin\Debug\net6.0\ApiPerformanceTestWeather.pdb
+C:\Users\steph\Documents\X00145825 Enterprise Applications Development 2 repeat\ApiPerformanceTestWeather\obj\Debug\net6.0\ApiPerformanceTestWeather.csproj.AssemblyReference.cache
+C:\Users\steph\Documents\X00145825 Enterprise Applications Development 2 repeat\ApiPerformanceTestWeather\obj\Debug\net6.0\ApiPerformanceTestWeather.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\steph\Documents\X00145825 Enterprise Applications Development 2 repeat\ApiPerformanceTestWeather\obj\Debug\net6.0\ApiPerformanceTestWeather.AssemblyInfoInputs.cache
+C:\Users\steph\Documents\X00145825 Enterprise Applications Development 2 repeat\ApiPerformanceTestWeather\obj\Debug\net6.0\ApiPerformanceTestWeather.AssemblyInfo.cs
+C:\Users\steph\Documents\X00145825 Enterprise Applications Development 2 repeat\ApiPerformanceTestWeather\obj\Debug\net6.0\ApiPerformanceTestWeather.csproj.CoreCompileInputs.cache
+C:\Users\steph\Documents\X00145825 Enterprise Applications Development 2 repeat\ApiPerformanceTestWeather\obj\Debug\net6.0\ApiPerformanceTestWeather.dll
+C:\Users\steph\Documents\X00145825 Enterprise Applications Development 2 repeat\ApiPerformanceTestWeather\obj\Debug\net6.0\refint\ApiPerformanceTestWeather.dll
+C:\Users\steph\Documents\X00145825 Enterprise Applications Development 2 repeat\ApiPerformanceTestWeather\obj\Debug\net6.0\ApiPerformanceTestWeather.pdb
+C:\Users\steph\Documents\X00145825 Enterprise Applications Development 2 repeat\ApiPerformanceTestWeather\obj\Debug\net6.0\ApiPerformanceTestWeather.genruntimeconfig.cache
+C:\Users\steph\Documents\X00145825 Enterprise Applications Development 2 repeat\ApiPerformanceTestWeather\obj\Debug\net6.0\ref\ApiPerformanceTestWeather.dll
