@@ -1,0 +1,65 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "api_WeatherService_name": {
+      "type": "string"
+    },
+    "api_WeatherService_urlSuffix3": {
+      "type": "string"
+    },
+    "api_WeatherService_serviceName": {
+      "type": "string"
+    },
+    "apim_WeatherServiceapi_name": {
+      "type": "string"
+    },
+    "apim_WeatherServiceapi_LocationId": {
+      "type": "string"
+    },
+    "apim_WeatherServiceapi_email": {
+      "type": "string"
+    },
+    "apim_WeatherServiceapi_orgName": {
+      "type": "string"
+    },
+    "apim_WeatherServiceapi_tier": {
+      "type": "string"
+    },
+    "apim_WeatherServiceapi_capacity": {
+      "type": "int"
+    }
+  },
+  "resources": [
+    {
+      "apiVersion": "2021-08-01",
+      "type": "Microsoft.ApiManagement/service/apis",
+      "properties": {
+        "protocols": [
+          "https"
+        ],
+        "displayName": "[parameters('api_WeatherService_name')]",
+        "path": "[parameters('api_WeatherService_urlSuffix3')]"
+      },
+      "name": "[concat(parameters('api_WeatherService_serviceName'),'/', parameters('api_WeatherService_name'))]",
+      "dependsOn": [
+        "[resourceId('Microsoft.ApiManagement/service', parameters('apim_WeatherServiceapi_name'))]",
+        "[resourceId('Microsoft.ApiManagement/service', parameters('apim_WeatherServiceapi_name'))]"
+      ]
+    },
+    {
+      "apiVersion": "2021-08-01",
+      "type": "Microsoft.ApiManagement/service",
+      "properties": {
+        "publisherEmail": "[parameters('apim_WeatherServiceapi_email')]",
+        "publisherName": "[parameters('apim_WeatherServiceapi_orgName')]"
+      },
+      "name": "[parameters('apim_WeatherServiceapi_name')]",
+      "location": "[parameters('apim_WeatherServiceapi_LocationId')]",
+      "sku": {
+        "name": "[parameters('apim_WeatherServiceapi_tier')]",
+        "capacity": "[parameters('apim_WeatherServiceapi_capacity')]"
+      }
+    }
+  ]
+}
